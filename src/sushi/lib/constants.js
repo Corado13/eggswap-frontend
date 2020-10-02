@@ -1,70 +1,32 @@
-// import BigNumber from 'bignumber.js/bignumber'
-
-// export const SUBTRACT_GAS_LIMIT = 100000
-
-// const ONE_MINUTE_IN_SECONDS = new BigNumber(60)
-// const ONE_HOUR_IN_SECONDS = ONE_MINUTE_IN_SECONDS.times(60)
-// const ONE_DAY_IN_SECONDS = ONE_HOUR_IN_SECONDS.times(24)
-// const ONE_YEAR_IN_SECONDS = ONE_DAY_IN_SECONDS.times(365)
-
-// export const INTEGERS = {
-//   ONE_MINUTE_IN_SECONDS,
-//   ONE_HOUR_IN_SECONDS,
-//   ONE_DAY_IN_SECONDS,
-//   ONE_YEAR_IN_SECONDS,
-//   ZERO: new BigNumber(0),
-//   ONE: new BigNumber(1),
-//   ONES_31: new BigNumber('4294967295'), // 2**32-1
-//   ONES_127: new BigNumber('340282366920938463463374607431768211455'), // 2**128-1
-//   ONES_255: new BigNumber(
-//     '115792089237316195423570985008687907853269984665640564039457584007913129639935',
-//   ), // 2**256-1
-//   INTEREST_RATE_BASE: new BigNumber('1e18'),
-// }
-
-// export const addressMap = {
-//   uniswapFactory: '0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95',
-//   uniswapFactoryV2: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f',
-//   YFI: '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e',
-//   YCRV: '0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8',
-//   UNIAmpl: '0xc5be99a02c6857f9eac67bbce58df5572498f40c',
-//   WETH: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-//   UNIRouter: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',
-//   LINK: '0x514910771AF9Ca656af840dff83E8264EcF986CA',
-//   MKR: '0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2',
-//   SNX: '0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F',
-//   COMP: '0xc00e94Cb662C3520282E6f5717214004A7f26888',
-//   LEND: '0x80fB784B7eD66730e8b1DBd9820aFD29931aab03',
-//   YAMYCRV: '0x2C7a51A357d5739C5C74Bf3C96816849d2c9F726',
-// }
 
 export const contractAddresses = {
   sushi: {
     42: '0x89d5F2E52D36b85e72e25e8fE46d709D445c03Fc', // aelf sushi new one 9.9
-    // 42: '0x43a7903E3a839a67192151eE300e11198985E54b', // sushi
+    1337: '0xd231d8C05F24A6D267aA198Ae366D6DF8E81B741', // sushi
     1: '0xC28E27870558cF22ADD83540d2126da2e4b464c2', // aelf sashimi
     // 1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2', // sushi use
   },
   sashimiBar: {
     42: '0xfaC2681cB05Ba08De504e7FDBc2186B22d868f2A', // aelf sushi new one 9.18
-    // 42: '0x43a7903E3a839a67192151eE300e11198985E54b', // sushi
+    1337: '0x606618688aBdc996Bd1807b564e9bfd7Bb2a60a0', // sushi
     // TODO: change address
     1: '0x79F006926F7a8CDf4055469C34c9609C6488DB15', // aelf sashimi
     // 1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2', // sushi use
   },
   investment: {
     42: '0x46641A3aA421beA0207Ead6d807c847a2f599943',
+    1337: '0x46641A3aA421beA0207Ead6d807c847a2f599943',
     1: '0x46641A3aA421beA0207Ead6d807c847a2f599943' // TODO: use mainnet address
   },
   masterChef: {
     42: '0x042036D6F0b5C246aA07Dd9688b46cf86Bd179C3', // aelf sushi new one 9.9
-    // 42: '0x245A074cA9814fB46A21562bC70fAB92F8A3F779', // sushi
+    1337: '0x8A22C3B6346703D0081d84d9D4BB883Cf2653a05', // sushi
     1: '0x1daed74ed1dd7c9dabbe51361ac90a69d851234d', // aelf master
     // 1: '0xc2edad668740f1aa35e4d8f227fb8e17dca888cd', // sushi use
   },
   weth: {
     42: '0xA050886815CFc52a24B9C4aD044ca199990B6690', // aelf sushi
-    // 42: '0xd0a1e359811322d97991e03f863a0c30c2cf029c', // weth in kovan
+    1337: '0x304e28d6b590bA484219a7Cf3db45C9BB75c3FBd', // weth in kovan
     1: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', // sushi use
   },
 }

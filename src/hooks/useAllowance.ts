@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 
 import BigNumber from 'bignumber.js'
 import useYam from './useYam'
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'use-wallet-exp'
 import { provider } from 'web3-core'
 import { Contract } from 'web3-eth-contract'
 

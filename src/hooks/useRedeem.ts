@@ -1,6 +1,6 @@
 import { useCallback } from 'react'
 
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'use-wallet-exp'
 import { Contract } from 'web3-eth-contract'
 
 import { redeem } from '../sushi/utils'

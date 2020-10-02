@@ -20,7 +20,7 @@ import useTokenBalance from '../../../hooks/useTokenBalance'
 import { getBalanceNumber } from '../../../utils/formatBalance'
 
 import WithdrawModal from './WithdrawModal'
-import {useWallet} from "use-wallet";
+import {useWallet} from "use-wallet-exp";
 
 interface StakeProps {
   sashimiBarContract: Contract

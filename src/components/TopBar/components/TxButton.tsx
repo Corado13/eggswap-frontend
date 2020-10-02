@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'use-wallet-exp'
 
 import usePendingTransactions from '../../../hooks/usePendingTransactions'
 

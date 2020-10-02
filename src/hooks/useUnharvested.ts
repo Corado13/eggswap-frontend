@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'use-wallet-exp'
 
 import { Context as FarmsContext } from '../contexts/Farms'
 import { bnToDec } from '../utils'

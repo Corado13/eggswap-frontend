@@ -1,7 +1,7 @@
 import { useCallback } from 'react'
 
 import useYam from './useYam'
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'use-wallet-exp'
 
 import { stake, getMasterChefContract } from '../sushi/utils'
 

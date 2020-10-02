@@ -1,4 +1,4 @@
 export const yam = '0x0e2298e3b3390e3b945a5456fbf59ecc3f55da16'
 export const yamv2 = '0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a'
-export const sushiAddress = '0x43a7903E3a839a67192151eE300e11198985E54b'
-export const masterChefAddress = '0x245A074cA9814fB46A21562bC70fAB92F8A3F779'
+export const sushiAddress = '0xd231d8C05F24A6D267aA198Ae366D6DF8E81B741'
+export const masterChefAddress = '0x8A22C3B6346703D0081d84d9D4BB883Cf2653a05'

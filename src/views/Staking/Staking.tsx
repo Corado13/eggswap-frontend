@@ -1,7 +1,7 @@
 import React, {useMemo, useEffect} from 'react'
 import styled from 'styled-components'
 
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'use-wallet-exp'
 import { Contract } from 'web3-eth-contract'
 import chef from '../../assets/img/chef.png'
 

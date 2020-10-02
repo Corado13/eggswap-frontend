@@ -21,12 +21,13 @@
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.1",
     "typescript": "^3.9.7",
-    "use-wallet": "^0.8.0",
+    "use-wallet-exp": "^0.8.3",
     "web3": "^1.2.11"
   },
   "scripts": {
     "start": "cross-env REACT_APP_CHAIN_ENV=main craco start",
     "start:kovan": "cross-env REACT_APP_CHAIN_ENV=kovan craco start",
+    "start:ganache": "cross-env REACT_APP_CHAIN_ENV=ganache craco start",
     "build": "cross-env REACT_APP_CHAIN_ENV=main CI= GENERATE_SOURCEMAP=false craco build",
     "build:kovan": "cross-env REACT_APP_CHAIN_ENV=kovan CI= GENERATE_SOURCEMAP=false craco build",
     "build:pro": "rm -rf build* && npm run build && tar -zcvf build.tar.gz  build",
@@ -51,16 +52,16 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^5.6.4",
     "@types/numeral": "0.0.28",
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.5",
     "@types/styled-components": "^5.1.2",
-    "@craco/craco": "^5.6.4",
     "babel-plugin-import": "^1.13.0",
+    "commitizen": "^4.2.1",
     "craco-less": "^1.17.0",
     "cross-env": "^7.0.2",
-    "git-cz": "^4.7.1",
-    "commitizen": "^4.2.1"
+    "git-cz": "^4.7.1"
   },
   "config": {
     "commitizen": {

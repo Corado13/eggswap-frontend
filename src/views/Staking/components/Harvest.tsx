@@ -18,7 +18,7 @@ import {
 import {LogoImg} from "../../../components/Logo/Logo";
 import WithdrawModal from './WithdrawModal'
 import useModal from "../../../hooks/useModal";
-import {useWallet} from "use-wallet";
+import {useWallet} from "use-wallet-exp";
 
 interface HarvestProps {
   sashimiBarContract: Contract

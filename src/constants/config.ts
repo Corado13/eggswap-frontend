@@ -1,2 +1,2 @@
-export const BASIC_TOKEN = 'SASHIMI';
-export const GITHUB = 'https://github.com/SashimiProject/sushiswap-frontend';
+export const BASIC_TOKEN = 'EGGSWAP';
+export const GITHUB = 'https://github.com/eggswap/eggswap-frontend';
