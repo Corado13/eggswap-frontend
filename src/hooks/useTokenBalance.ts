@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 
 import BigNumber from 'bignumber.js'
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'use-wallet-exp'
 import { provider } from 'web3-core'
 
 import { getBalance } from '../utils/erc20'

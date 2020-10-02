@@ -2,7 +2,7 @@ import React, { useMemo, useEffect } from 'react'
 import styled from 'styled-components'
 
 import { useParams } from 'react-router-dom'
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'use-wallet-exp'
 import { provider } from 'web3-core'
 
 import PageHeader from '../../../components/PageHeader'

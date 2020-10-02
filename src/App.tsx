@@ -4,7 +4,7 @@ import {
   Layout
 } from 'antd';
 import styled, { ThemeProvider } from 'styled-components'
-import { UseWalletProvider } from 'use-wallet'
+import { UseWalletProvider } from 'use-wallet-exp'
 
 import DisclaimerModal from './components/DisclaimerModal'
 import Mobile from './contexts/Mobile';

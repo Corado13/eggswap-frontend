@@ -10,7 +10,7 @@ import {
 } from 'react-router-dom';
 import styled, {keyframes} from 'styled-components'
 import Countdown, {CountdownRenderProps} from 'react-countdown'
-import {useWallet} from 'use-wallet'
+import {useWallet} from 'use-wallet-exp'
 import numeral from 'numeral'
 
 import Card from '../../../../components/Card'

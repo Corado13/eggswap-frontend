@@ -21,7 +21,7 @@ import { getInvestmentContract, getSushiContract, getInvestments } from '../../.
 import {getBalanceNumber} from "../../../utils/formatBalance";
 import {Yam} from "../../../sushi";
 import {Contract} from "web3-eth-contract";
-import {useWallet} from "use-wallet";
+import {useWallet} from "use-wallet-exp";
 
 interface Investment {
   name: string

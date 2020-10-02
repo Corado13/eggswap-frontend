@@ -3,7 +3,7 @@ import { Switch } from 'react-router-dom'
 import {
   Button
 } from 'antd';
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'use-wallet-exp'
 
 import chef from '../../assets/img/chef.png'
 

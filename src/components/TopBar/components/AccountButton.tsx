@@ -4,7 +4,7 @@ import {
   Button
 } from 'antd';
 
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'use-wallet-exp'
 
 import useModal from '../../../hooks/useModal'
 import WalletProviderModal from '../../WalletProviderModal'

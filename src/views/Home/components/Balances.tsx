@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import numeral from 'numeral'
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'use-wallet-exp'
 
 import Card from '../../../components/Card'
 import CardContent from '../../../components/CardContent'

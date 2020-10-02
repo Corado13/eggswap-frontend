@@ -20,7 +20,7 @@ import useTokenBalance from '../../../hooks/useTokenBalance'
 
 import { getBalanceNumber } from '../../../utils/formatBalance'
 
-import {useWallet} from "use-wallet";
+import {useWallet} from "use-wallet-exp";
 import useEnter from "../../../hooks/sashimiBar/useEnter";
 
 interface StakeProps {

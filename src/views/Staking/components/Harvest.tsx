@@ -17,7 +17,7 @@ import {
 import {LogoImg} from "../../../components/Logo/Logo";
 import WithdrawModal from '../../../components/WithdrawModal'
 import useModal from "../../../hooks/useModal";
-import {useWallet} from "use-wallet";
+import {useWallet} from "use-wallet-exp";
 import useTokenBalance from "../../../hooks/useTokenBalance";
 import useLeave from "../../../hooks/sashimiBar/useLeave";
 

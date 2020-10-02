@@ -7,7 +7,8 @@ const CHAIN_ENV = process.env.REACT_APP_CHAIN_ENV || 'main';
 const output = {
   main: online,
   kovan: testKovan,
-  'online-test': onlineTest
+  'online-test': onlineTest,
+  ganache: online
 };
 
 export const {

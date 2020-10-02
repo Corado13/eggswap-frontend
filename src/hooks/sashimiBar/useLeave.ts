@@ -1,7 +1,7 @@
 import { useCallback } from 'react'
 
 import useYam from '../useYam'
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'use-wallet-exp'
 import { Contract } from 'web3-eth-contract'
 import BigNumber from "bignumber.js";
 
