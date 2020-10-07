@@ -30,11 +30,15 @@ interface StakeProps {
   isStart?: boolean
 }
 
-const Stake: React.FC<StakeProps> = ({sashimiBarContract, sushiContract, walletLocked, isStart = false}) => {
+const Stake: React.FC<StakeProps> = ({sashimiBarContract, sushiContract, walletLocked, isStart = true}) => {
   const [requestedApproval, setRequestedApproval] = useState(false)
   const { account } = useWallet();
 
   const allowance = useAllowance(sushiContract, sashimiBarContract);
+
+  //console.log(allowance.toNumber());
+  //console.log({sushiContract, sashimiBarContract})
+
   const { onApprove } = useApprove(sushiContract, sashimiBarContract);
   const { onEnter } = useEnter(sashimiBarContract);
 

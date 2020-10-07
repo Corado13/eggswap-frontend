@@ -3,14 +3,14 @@ export const contractAddresses = {
     42: '0x89d5F2E52D36b85e72e25e8fE46d709D445c03Fc', // aelf sushi new one 9.9
     1337: '0xd231d8C05F24A6D267aA198Ae366D6DF8E81B741', // sushi
     1: '0xC28E27870558cF22ADD83540d2126da2e4b464c2', // aelf sashimi
-    // 1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2', // sushi use
+    2: '0x5AB20632Bad41463680975D3AaC3320F820F1fA1', // sushi use
   },
   sashimiBar: {
     42: '0xfaC2681cB05Ba08De504e7FDBc2186B22d868f2A', // aelf sushi new one 9.18
     1337: '0x606618688aBdc996Bd1807b564e9bfd7Bb2a60a0', // sushi
     // TODO: change address
     1: '0x79F006926F7a8CDf4055469C34c9609C6488DB15', // aelf sashimi
-    // 1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2', // sushi use
+    2: '0x139C12444c63F9B62214D7c1bB8780AB618E6FB3', // sushi use
   },
   investment: {
     42: '0x46641A3aA421beA0207Ead6d807c847a2f599943',
@@ -21,12 +21,13 @@ export const contractAddresses = {
     42: '0x042036D6F0b5C246aA07Dd9688b46cf86Bd179C3', // aelf sushi new one 9.9
     1337: '0x8A22C3B6346703D0081d84d9D4BB883Cf2653a05', // sushi
     1: '0x1daed74ed1dd7c9dabbe51361ac90a69d851234d', // aelf master
-    // 1: '0xc2edad668740f1aa35e4d8f227fb8e17dca888cd', // sushi use
+    2: '0x60af21B16cebA8dd5216d407bCE401740140A94C', // sushi use
   },
   weth: {
     42: '0xA050886815CFc52a24B9C4aD044ca199990B6690', // aelf sushi
     1337: '0x304e28d6b590bA484219a7Cf3db45C9BB75c3FBd', // weth in kovan
     1: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', // sushi use
+    2: '0x331631B4bb93b9B8962faE15860BD538a389395A',
   },
 }
 
@@ -109,27 +110,61 @@ export const supportedPools = [
     pid: 0,
     lpAddresses: {
       1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0xA56cD5eCa1066be998d2f09DB7A1903E0E47d05d'
     },
     tokenAddresses: {
       1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x5AB20632Bad41463680975D3AaC3320F820F1fA1'
     },
-    name: 'Tether Turtle',
+    name: 'EGGs',
     symbol: 'EGG-WEXP UNI-V2 LP',
     tokenSymbol: 'EGG',
-    icon: '🐢',
+    icon: '🥚 ',
   },
   {
     pid: 1,
     lpAddresses: {
       1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x9f17C654Ca15d2bE76CfDF6cb806A4b8e4678EeD'
     },
     tokenAddresses: {
       1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x3b4cfcc4532eec161860cb6544f49947544d940d'
     },
-    name: 'Tether Turtle',
-    symbol: 'EGG-WEXP UNI-V2 LP',
-    tokenSymbol: 'EGG',
-    icon: '🐢',
+    name: 'Tokenlab',
+    symbol: 'LAB-WEXP UNI-V2 LP',
+    tokenSymbol: 'LAB',
+    icon: '🥚 ',
+  },
+  {
+    pid: 2,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0xc150686B8b24f0e08f1d94773d0355427C25ef0e'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x9D2761A714b5b2EfA325a8a3eee21BE32AACeB4A'
+    },
+    name: 'LOVE',
+    symbol: 'LOVE-WEXP UNI-V2 LP',
+    tokenSymbol: 'LOVE',
+    icon: '❤️️ ',
+  },
+  {
+    pid: 3,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x505B2Fe24Aff173291fEAd573E90dFb21c754bFd'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x72332c512bf2dA5A7Cd11752b380F7d8fcBba847'
+    },
+    name: 'T64',
+    symbol: 'T64-WEXP UNI-V2 LP',
+    tokenSymbol: 'T64',
+    icon: '❤️️ ',
   },
   /*
   {
